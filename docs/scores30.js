@@ -33,3 +33,48 @@ function reset(){
     inThey[0].parentNode.replaceChild(inTheyAux, inThey[0]);
     
 }
+
+
+function add(team1){
+    if(team1 && score1 < 15){
+        score1++;
+        outUsAux.textContent = score1;
+        outUs[0].parentNode.replaceChild(outUsAux, outUs[0]);
+    }else if(team1 && score1 < 30){
+        score1++;
+        inUsAux.textContent = score1 - 15;
+        inUs[0].parentNode.replaceChild(inUsAux, inUs[0]);
+    }else if(!team1 && score2 < 15){
+        score2++;
+        outTheyAux.textContent = score2;
+        outThey[0].parentNode.replaceChild(outTheyAux, outThey[0]);
+    }else if(!team1 && score2 < 30){
+        score2++;
+        inTheyAux.textContent = score2;
+        inThey[0].parentNode.replaceChild(inTheyAux, inThey[0]);
+    }else{
+        alert("La partida a terminado!");
+    }
+}
+
+function substract(team1){
+    if(team1 && score1 > 0 && score1 <= 15){
+        score1--;
+        outUsAux.textContent = score1;
+        outUs[0].parentNode.replaceChild(outUsAux, outUs[0]);
+    }else if(team1 && score1 <= 30 && score1  > 15 ){
+        score1--;
+        inUsAux.textContent = score1 - 15;
+        inUs[0].parentNode.replaceChild(inUsAux, inUs[0]);
+    }else if(!team1 && score2 <= 15 && score2 > 0){
+        score2--;
+        outTheyAux.textContent = score2;
+        outThey[0].parentNode.replaceChild(outTheyAux, outThey[0]);
+    }else if(!team1 && score2 <= 30 && score2 > 15){
+        score2--;
+        inTheyAux.textContent = score2 - 15;
+        inThey[0].parentNode.replaceChild(inTheyAux, inThey[0]);
+    }else{
+        alert("No puede seguir restando!");
+    }
+}
