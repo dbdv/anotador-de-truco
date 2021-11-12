@@ -50,7 +50,7 @@ function add(team1){
         outThey[0].parentNode.replaceChild(outTheyAux, outThey[0]);
     }else if(!team1 && score2 < 30){
         score2++;
-        inTheyAux.textContent = score2;
+        inTheyAux.textContent = score2 - 15;
         inThey[0].parentNode.replaceChild(inTheyAux, inThey[0]);
     }else{
         alert("La partida a terminado!");

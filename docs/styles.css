@@ -75,6 +75,27 @@ a {
     text-shadow: #CCC 1px 0 10px;
 }
 
+.footer {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.contact {
+    padding: 5px;
+    border: solid 1px cornflowerblue;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: #fefefe;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact {
+    color: black;
+}
+
 /*-------------------------------------------------------------------*/
 .body{
     border: 1px solid black;
