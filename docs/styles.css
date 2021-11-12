@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #efefef;
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    height: 100%
+     
+}
+
+/*-------------------------------------------------------------------*/
+
+.container {
+    /*width: 100%;*/
+    /*height: 300px;*/
+    height: 99.5vh;
+    display: block;
+    /*margin: 50% auto;*/
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+    line-height: 70px;
+}
+
+.texts {
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+
+.puntos{
+    display: block;
+}
+
+.title {
+    width: 92%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.aQuince, .aTreinta {
+    display: block;
+    margin: 15px auto;
+    width: 98%;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.aQuince, .aTreinta {
+    
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.aQuince, .aTreinta {
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(109, 135, 185);
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #CCC 1px 0 10px;
+}
+
+/*-------------------------------------------------------------------*/
+.body{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+    padding: 1rem;
+    height: 90.5vh;
+}
+
+.header {
+    display: block;
+    width: 99%;
+    margin: auto;
+    margin-top: 0.1rem;
+    height: 6vh;
+    background-color: rgb(109, 135, 185);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonM {
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    
+}
+
+.buttonM a {
+    text-decoration: none;
+}
+
+.buttonM a:visited {
+    color: white;
+}
+
+.buttonM a:visited {
+    color: white;
+}
+
+/*#restart {
+    text-shadow: #CCC 1px 0 10px;
+}*/
+
+.score{
+    display: flex;
+    justify-content: space-between;
+}
+
+.score h1 {
+    margin: 0 3rem;
+    margin-top: 2.5rem;
+    padding: 2rem;
+}
+
+.divider {
+    margin: 6rem auto;
+    height: 28rem;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.dividerH {
+    position: absolute;
+    margin: 20rem 13%;
+    height: 0;
+    width: 22rem;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.btnSec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(109, 135, 185);
+    border: 1px solid rgb(59, 119, 230);
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.outUs{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+}
+
+.outThey{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+}
+
+.inUs{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+.inThey{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+/*--------------------------------------------*/
+
+.scoreUs {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 3rem;
+}
+
+.scoreThey {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 3rem;
+}

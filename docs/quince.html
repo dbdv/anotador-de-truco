@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Anotador de truco</title>
+
+    <link rel="shortcut icon" href="imagenes/Icon64.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/dc8ad386a2.js" crossorigin="anonymous"></script>
+    <script src="scores15.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="bar">
+            
+            <button class="buttonM" id="back"><a href="index.html"><i class="fas fa-arrow-left"></a></i></button>
+            <button class="buttonM" id="restart" onclick="reset()">Reiniciar <i class="fas fa-spinner"></i></button>
+            
+        </div>
+    </div>
+
+    <div class="body">
+
+        <div class="score">
+        
+            <div class="us" id="us">
+                <h1>Nos</h1>
+                <h2 class="scoreUs">0</h2>
+            </div>
+        
+            <div class="divider">
+        
+            </div>
+        
+            <div class="they" id="they">
+                <h1>Ellos</h1>
+                <h2 class="scoreThey">0</h2>
+            </div>
+        </div>
+        <div class="btnSec">
+
+            <button class="button" id="addUs" onclick="add(true)"><i class="fas fa-plus"></i></button> 
+            <button class="button" id="substractUs" onclick="substract(true)"><i class="fas fa-minus"></i></button>
+            <button class="button" id="addThey" onclick="add(false)"><i class="fas fa-plus"></i></button> 
+            <button class="button" id="substractThey" onclick="substract(false)"><i class="fas fa-minus"></i></button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
